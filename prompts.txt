@@ -1,0 +1,6 @@
+1. "Ayúdame a corregir esto en Visual Studio Code"
+2. "Hay que corregir la base de datos en Supabase"
+3. "Al introducir los comandos npx expo start sale lo siguiente"
+4. "Estoy en la pagina de supabase, ayúdame a crear una base de datos"
+5. "¿En qué parte creo el archivo LoginScreen.js?"
+6. "Me salen estos errores rojos, que debo de hacer"

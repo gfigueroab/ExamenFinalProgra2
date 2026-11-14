@@ -1,0 +1,8 @@
+(a) Qué entendió del problema y qué tablas/modelos planeó:
+El problema requería un sistema de renta de películas con diferentes niveles de acceso. Planeé una base de datos relacional en Supabase con tres tablas principales: 'usuarios' (para manejar perfil y autenticación), 'peliculas' (catálogo fijo) y 'rentas' (para registrar transacciones cruzando ID de usuario e ID de película con fechas de inicio y fin).
+
+(b) Qué partes se delegaron a la IA y por qué:
+Delegué a la IA la creación del cascarón de la interfaz de usuario, la sintaxis exacta de las consultas de Supabase (insert, select con uniones, upsert) y la configuración de la navegación con Expo Router. Lo hice para agilizar el desarrollo del frontend y evitar errores de sintaxis en el backend.
+
+(c) Al menos una cosa que la IA hizo mal o que tuvo que corregir, y cómo se dio cuenta:
+Al inicio, la IA estructuró todo el código asumiendo que usaría Firebase/Firestore y la librería antigua de React Navigation (con un archivo App.js central). Me di cuenta porque mi proyecto necesitaba Supabase y usaba la estructura moderna de Expo Router. Tuve que corregir a la IA para que migrara la conexión a PostgreSQL y reestructurara la navegación usando la carpeta 'app' y el archivo 'index.tsx'.
